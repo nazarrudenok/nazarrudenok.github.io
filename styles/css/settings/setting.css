@@ -1,0 +1,135 @@
+@font-face {
+    font-family: e-Ukraine-R;
+    src: url('/fonts/e-Ukraine/e-Ukraine-Regular.otf') format('opentype');
+}
+@font-face {
+    font-family: e-Ukraine-Head-R;
+    src: url('/fonts/e-Ukraine Head/e-UkraineHead-Regular.otf') format('opentype');
+}
+
+::selection {
+    background: #383838;
+}
+
+::-webkit-scrollbar {
+    width: 12px;
+}
+
+::-webkit-scrollbar-thumb {
+    background-color: #fd1f4a;
+}
+
+::-webkit-scrollbar-track {
+    background-color: #000000;
+}
+
+* {
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    background: #000000;
+    color: #fbbd0d;
+    font-family: e-Ukraine-R;
+}
+
+.main {
+    padding: 0 20px 0 20px;
+}
+
+.header {
+    display: flex;
+    justify-content: space-between;
+    font-family: e-Ukraine-Head-R;
+    color: #fd1f4a;
+    font-size: 23px;
+    padding: 5px 20px 50px 20px;
+}
+
+.header-items-container {
+    display: flex;
+    justify-content: space-between;
+}
+
+.logo, .header-item {
+    cursor: pointer;
+    transition: all .15s;
+}
+
+.header-item:hover {
+    color: #cc0f35;
+}
+
+.back-img {
+    width: 40px;
+}
+
+h2 {
+    color: #ffffff;
+    font-family: e-Ukraine-Head-R;
+}
+
+form {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+
+.form-data2 {
+    background: #fd1f4a;
+    width: 350px;
+    height: 30px;
+    border: none;
+    border-radius: 5px;
+    font-size: 15px;
+    box-shadow: none;
+    outline: none;
+    padding: 1.5px 3px 1.5px 3px;
+    margin: 7px 0 7px 0;
+    font-family: e-Ukraine-R;
+    text-align: center;
+    color: #ffffff;
+}
+
+.form-data2::placeholder {
+    color: #000000;
+}
+
+.check-button {
+    width: 250px;
+    height: 30px;
+    background: #fd1f4a;
+    border: none;
+    border-radius: 5px;
+    font-size: 15px;
+    padding: 1.5px;
+    margin: 7px 0 7px 0;
+    font-family: e-Ukraine-R;
+    cursor: pointer;
+}
+
+.update-items {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+}
+
+.item-cont {
+    width: 48%;
+    margin-bottom: 25px;
+}
+
+.item-cont:nth-child(1) {
+    font-family: e-Ukraine-Head-R;
+}
+
+.settings-cont {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+}
+
+.edit-profile {
+    font-size: 22px;
+}

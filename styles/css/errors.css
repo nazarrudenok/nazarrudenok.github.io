@@ -1,0 +1,28 @@
+@font-face {
+    font-family: e-Ukraine-R;
+    src: url('/fonts/e-Ukraine/e-Ukraine-Regular.otf') format('opentype');
+}
+@font-face {
+    font-family: e-Ukraine-Head-R;
+    src: url('/fonts/e-Ukraine Head/e-UkraineHead-Regular.otf') format('opentype');
+}
+
+* {
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    background: #000000;
+    color: #fbbd0d;
+}
+
+main {
+    height: 100vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    font-size: 20px;
+    font-family: e-Ukraine-Head-R;
+}

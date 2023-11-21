@@ -1,0 +1,112 @@
+@media (max-width: 480px) {
+    .header {
+        padding: 5px 10px 30px 10px;
+    }
+
+    main {
+        margin: 0 15px 0 15px;
+    }
+    
+    .logo-text, .header-item {
+        font-size: 18px;
+    }
+
+    .search {
+        width: 130px;
+    }
+
+    .post {
+        width: 100%;
+        flex-basis: unset;
+        margin-bottom: 10px;
+    }
+
+    .photo {
+        width: 120px;
+        height: 120px;
+        font-size: 25px;
+        margin-bottom: 5px;
+    }
+
+    .user-data {
+        flex-direction: column;
+        align-items: normal;
+    }
+
+    .main {
+        padding: 0;
+        height: auto;
+    }
+
+    .add-post-cont, .note-cont {
+        font-size: 12.5px;
+    }
+
+    .add-post-text, .note {
+        font-size: 15px;
+        width: 220px;
+    }
+
+    .note-cont {
+        word-wrap: break-word;
+    }
+    
+    .hello-settings {
+        font-size: 15px;
+    }
+
+    .add-post-cont {
+        margin-top: 7.5px;
+    }
+
+    /* .second-data {
+        align-items: flex-start;
+    } */
+
+    .bio-title, .friends-list-title {
+        font-size: 25px;
+    }
+
+    .add-post {
+        margin-bottom: 10px;
+    }
+
+    .no-posts {
+        font-size: 20px;
+    }
+
+    .all-cont {
+        flex-direction: column;
+    }
+
+    .form-container {
+        height: auto;
+    }
+
+    .form-data {
+        width: auto;
+    }
+
+    .form-container {
+        border-radius: 25px;
+        margin: 0;
+    }
+
+    .info-container {
+        padding: 0;
+        padding-bottom: 20px;
+    }
+
+    .update-items {
+        flex-wrap: nowrap;
+        flex-direction: column;
+    }
+
+    .edit-profile {
+        font-size: 15;
+    }
+
+    h2 {
+        font-size: 18px;
+    }
+}
